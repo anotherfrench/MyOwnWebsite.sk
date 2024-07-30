@@ -68,7 +68,7 @@
 	"page_contact___text_modal_help__limit": "Limite: {min}-{max} caractères",
 	"page_contact___text_modal_help___content_email___part1": "Il vous suffit de saisir une adresse email comportant un « @ » et un « . ». Toutefois, seuls certains domaines seront acceptés.",
 	"page_contact___text_modal_help___content_email___part2": "Voici la liste de ces derniers:",
-	"page_contact___text_modal_help___content_nickname": "Un simple surnom ou votre prénom si vous en avez envie, par exemple : {nickname} ou {first_name}.",
+	"page_contact___text_modal_help___content_nickname": "Un simple surnom ou votre prénom si vous en avez envie, par exemple : {nickname} ou Dora.",
 	"page_contact___text_modal_help___content_discord": "Il ne s'agit pas de votre nom d'affichage Discord, mais de votre nom d'utilisateur, qui est sélectionné pour vous ajouter en tant qu'ami(e).",
 	"page_contact___text_modal_help___content_message": "Envoyez-moi simplement le message que vous souhaitez, mais n'utilisez pas la page de contact uniquement pour dire « Pouvons-nous jouer ? », « Quel âge as-tu ? », etc... s'il vous plaît.",
 	"page_contact___text_toast_success": "Message envoyé à {nickname}.",

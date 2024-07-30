@@ -2,7 +2,7 @@
 	import { availableLanguageTags, languageTag } from '$lib/paraglide/runtime.js';
 	import { page } from '$app/stores';
 	import { i18n } from '$lib/i18n';
-	import { PUBLIC_INFOS_FIRSTNAME, PUBLIC_INFOS_NICKNAME } from '$env/static/public';
+	import { PUBLIC_INFOS_NICKNAME } from '$env/static/public';
 
 	/**
 	 * @type {string}
@@ -52,7 +52,7 @@
 	<meta property="twitter:description" content={description} />
 	<meta name="apple-mobile-web-app-title" content={PUBLIC_INFOS_NICKNAME} />
 	<meta name="application-name" content={PUBLIC_INFOS_NICKNAME} />
-	<meta name="author" content={`${PUBLIC_INFOS_FIRSTNAME} (@${PUBLIC_INFOS_NICKNAME})`} />
+	<meta name="author" content={`${PUBLIC_INFOS_NICKNAME} (@${PUBLIC_INFOS_NICKNAME})`} />
 	<meta property="og:site_name" content={PUBLIC_INFOS_NICKNAME} />
 	{#if availableLanguageTags.includes(languageTag())}
 		<meta property="og:url" content={url + i18n.resolveRoute(i18n.route($page.url.pathname))} />

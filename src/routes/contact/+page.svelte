@@ -256,8 +256,7 @@
 					</h1>
 					<p class={cssModal.p}>
 						{m.page_contact___text_modal_help___content_nickname({
-							nickname: PUBLIC_INFOS_NICKNAME,
-							first_name: PUBLIC_INFOS_FIRSTNAME
+							nickname: PUBLIC_INFOS_NICKNAME
 						})}
 					</p>
 					<h1 class={cssModal.title}>

@@ -1,12 +1,13 @@
 export const csr: boolean = true;
 import * as m from '$lib/paraglide/messages.js';
 import {
+	PRIVATE_INFOS_FIRSTNAME,
 	PRIVATE_DISCORD_USER_ID,
 	PRIVATE_DISCORD_CHANNEL_CONTACT_ID,
 	PRIVATE_DISCORD_WEBHOOKS_CONTACT,
 	PRIVATE_RECAPTCHA_SECRET_KEY
 } from '$env/static/private';
-import { PUBLIC_INFOS_FIRSTNAME, PUBLIC_INFOS_NICKNAME } from '$env/static/public';
+import { PUBLIC_INFOS_NICKNAME } from '$env/static/public';
 
 interface Errors {
 	email: string;
@@ -177,7 +178,7 @@ export const actions = {
 							color: colorRandom,
 							footer: {
 								text: m.page_contact___text_webhooks__footer({
-									author: PUBLIC_INFOS_FIRSTNAME,
+									author: PRIVATE_INFOS_FIRSTNAME,
 									discord_username: PUBLIC_INFOS_NICKNAME
 								}),
 								icon_url: getCurrentLang(language)

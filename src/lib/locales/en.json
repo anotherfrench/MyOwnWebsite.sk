@@ -68,7 +68,7 @@
 	"page_contact___text_modal_help__limit": "Limit: {min}-{max} characters",
 	"page_contact___text_modal_help___content_email___part1": "Simply enter an e-mail address with « @ » and « . ». However, only certain domains will be accepted.",
 	"page_contact___text_modal_help___content_email___part2": "Here's a list of these:",
-	"page_contact___text_modal_help___content_nickname": "Just a nickname or your first name if you feel like it, for example: {nickname} or {first_name}.",
+	"page_contact___text_modal_help___content_nickname": "Just a nickname or your first name if you feel like it, for example: {nickname} or Dora.",
 	"page_contact___text_modal_help___content_discord": "This is not your Discord display name, but your username, which is also used to add you as a friend.",
 	"page_contact___text_modal_help___content_message": "Simply the message you want to send me, but please don't use the contact page just to say « Can we play? », « How old are you? », etc... please.",
 	"page_contact___text_toast_success": "Message sent to {nickname}.",
