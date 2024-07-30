@@ -2,7 +2,7 @@
 	// @ts-nocheck
 	import { languageTag } from '$lib/paraglide/runtime.js';
 	import * as m from '$lib/paraglide/messages.js';
-	import { PUBLIC_INFOS_FIRSTNAME, PUBLIC_INFOS_NICKNAME } from '$env/static/public';
+	import { PUBLIC_INFOS_NICKNAME } from '$env/static/public';
 	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
 	import { toast } from 'svoast';
 	import { enhance } from '$app/forms';
