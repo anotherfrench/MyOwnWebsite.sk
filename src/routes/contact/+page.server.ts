@@ -145,7 +145,7 @@ export const actions = {
 
 				var currentAvatarId: string = `${url.protocol}//${url.host}/assets/images/discord-webhooks/logos/${getAvatarId(11)}.jpg`;
 				const webhookBody = {
-					username: `[${PUBLIC_INFOS_FIRSTNAME}] Contact`,
+					username: `[${PRIVATE_INFOS_FIRSTNAME}] Contact`,
 					content: m.page_contact___text_webhooks__content({
 						channel_id: `<#${PRIVATE_DISCORD_CHANNEL_CONTACT_ID}>`,
 						user_id: `<@${PRIVATE_DISCORD_USER_ID}>`
