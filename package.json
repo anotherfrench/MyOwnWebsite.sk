@@ -43,6 +43,6 @@
 	"type": "module",
 	"dependencies": {
 		"jsdom": "^24.1.0",
-		"mode-watcher": "^0.3.1"
+		"mode-watcher": "^0.4.1"
 	}
 }
