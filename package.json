@@ -16,7 +16,7 @@
 		"@inlang/paraglide-js-adapter-vite": "^1.2.40",
 		"@inlang/paraglide-sveltekit": "0.11.0",
 		"@popperjs/core": "^2.11.8",
-		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-auto": "^3.2.2",
 		"@sveltejs/amp": "^1.1.1",
 		"@sveltejs/kit": "^2.5.17",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
