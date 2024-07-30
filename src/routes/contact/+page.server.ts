@@ -130,14 +130,9 @@ export const actions = {
 				}
 
 				function getCurrentLang(lang: string): string {
-					let language;
-					switch (lang) {
-						case 'en':
-							language = 'usa';
-						case 'fr':
-							language = 'fr';
-						default:
-							language = 'usa';
+					let language = lang;
+					if (lang === 'en') {
+						language = 'usa';
 					}
 
 					return `${url.protocol}//${url.host}/assets/images/discord-webhooks/flags/${language}.png`;

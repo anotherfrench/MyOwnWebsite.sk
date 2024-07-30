@@ -4,6 +4,6 @@ import * as runtime from '$lib/paraglide/runtime.js';
 
 export const i18n = createI18n(runtime, {
 	prefixDefaultLanguage: 'always',
-	exclude: ['/^/api/d+$/']
+	exclude: ['/api/images', '/api/redirect', '/api/d+']
 	//
 });

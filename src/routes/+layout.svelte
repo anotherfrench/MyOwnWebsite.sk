@@ -1,4 +1,6 @@
 <script>
+	/** @type {import('./$types').PageData} */
+	export let data;
 	import { navigating } from '$app/stores';
 	import { ModeWatcher } from 'mode-watcher';
 	import { Toasts } from 'svoast';
@@ -41,7 +43,7 @@
 					<slot />
 				</div>
 			</main>
-			<Footer />
+			<Footer commitSha={data.GitHub_Commits_Sha} />
 		{:else}
 			<Loader />
 			{console.log(`[local] Error in loading... ${$loading.status}`)}

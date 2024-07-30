@@ -4,16 +4,14 @@ import { PUBLIC_INFOS_NICKNAME } from '$env/static/public';
 /** @type {import('./$types').PageLoad} */
 export function load({ params, url }) {
 	const lowerNickname = PUBLIC_INFOS_NICKNAME.toLowerCase();
-	const repo = `https://github.com/${lowerNickname}/${lowerNickname}.github.io`;
+	const repo = `https://github.com/${lowerNickname}/MyOwnWebsite.sk`;
 	let goTo = url.searchParams.get('to');
 	let githubPages = url.searchParams.get('gh');
-	let githubCommits = url.searchParams.get('commit');
+	let githubCommits = url.searchParams.get('sha');
 
 	switch (goTo) {
 		case 'github':
 			switch (githubPages) {
-				case 'repository':
-					redirect(302, repo);
 				case 'commit':
 					switch (githubCommits) {
 						case githubCommits:
@@ -21,6 +19,8 @@ export function load({ params, url }) {
 						default:
 							redirect(302, `${repo}/commits?author=${lowerNickname}`);
 					}
+				case 'repository':
+					redirect(302, repo);
 				default:
 					redirect(302, `https://github.com/${lowerNickname}`);
 			}
