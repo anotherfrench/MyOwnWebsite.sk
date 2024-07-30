@@ -37,7 +37,7 @@
 		"svoast": "^2.4.4",
 		"tailwind-merge": "^2.3.0",
 		"tailwindcss": "^3.4.4",
-		"typescript": "^5.5.2",
+		"typescript": "^5.5.4",
 		"vite": "^5.0.3"
 	},
 	"type": "module",
