@@ -1,0 +1,48 @@
+{
+	"name": "sra.sk",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"dev:host": "vite dev --host",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@inlang/paraglide-js": "1.10.1",
+		"@inlang/paraglide-js-adapter-vite": "^1.2.40",
+		"@inlang/paraglide-sveltekit": "0.11.0",
+		"@popperjs/core": "^2.11.8",
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/amp": "^1.1.1",
+		"@sveltejs/kit": "^2.5.17",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"@types/eslint": "^8.56.7",
+		"autoprefixer": "^10.4.19",
+		"dropcss": "^1.0.16",
+		"eslint": "^9.5.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-svelte": "^2.43.0",
+		"flowbite": "^2.4.1",
+		"flowbite-svelte": "^0.46.1",
+		"globals": "^15.6.0",
+		"postcss": "^8.4.40",
+		"prettier": "^3.1.1",
+		"prettier-plugin-svelte": "^3.2.5",
+		"svelte": "^4.2.7",
+		"svelte-check": "^3.8.4",
+		"svoast": "^2.4.4",
+		"tailwind-merge": "^2.3.0",
+		"tailwindcss": "^3.4.4",
+		"typescript": "^5.5.2",
+		"vite": "^5.0.3"
+	},
+	"type": "module",
+	"dependencies": {
+		"jsdom": "^24.1.0",
+		"mode-watcher": "^0.3.1"
+	}
+}

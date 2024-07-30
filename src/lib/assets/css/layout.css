@@ -1,0 +1,39 @@
+.grecaptcha-badge {
+	margin-bottom: 2.5rem !important;
+	/*display: none !important;*/
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 2rem;
+	box-sizing: border-box;
+}
+
+.h-80 {
+	height: 80vh;
+}
+
+@media (max-width: 1023px) {
+	.container {
+		max-width: 650px !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		max-width: 340px !important;
+	}
+}
+
+@media (max-width: 424px) {
+	.container {
+		max-width: 300px !important;
+	}
+}
+
+@media (max-width: 375px) {
+	.container {
+		max-width: 250px !important;
+	}
+}
