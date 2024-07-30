@@ -6,10 +6,10 @@
 
 <MetaData title={m.meta_home__title()} description={m.meta_home__description()} />
 
-<section class="flex h-screen justify-center items-center">
+<section class="flex h-80 justify-center items-center no-scrollbar">
 	<SolarSystem />
 
-	<div class="mt-20">
+	<div class="mt-60">
 		<a
 			href="/profiles"
 			rel="noopener"
